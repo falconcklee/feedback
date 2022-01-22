@@ -56,6 +56,8 @@ function FeedbackFields(props){
                 <Alert variant="success"> 
                     Feedback was submitted.
                 </Alert>}
+            {<h1>Feedback</h1>}
+            {<span className='small'>Would appreciate your thoughts</span>}
             <Form onSubmit={submitHandler}>
                 <Form.Group as={Row} className="mb-3" controlId="salutation">
                     <Form.Label column sm={2} className={css['form-label']}>Salutation</Form.Label>
